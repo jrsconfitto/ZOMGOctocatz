@@ -5,7 +5,7 @@ This small utility will download all the Octocats on the [Octodex](http://octode
 
 ## Where do i get it?
 
-[Download it here](https://github.com/jugglingnutcase/ZOMGOctocatz/downloads)
+[Download it here](https://github.com/downloads/jugglingnutcase/ZOMGOctocatz/ZOMGOctocatz.zip)
 
 ## How do i run it?
 
