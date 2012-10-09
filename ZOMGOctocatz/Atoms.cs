@@ -26,6 +26,7 @@ namespace Octodexing {
 		public Content Content { get; set; }
 	}
 
+	// Please dont make fun of me for this :(
 	public class Content {
 		public Div Div { get; set; }
 		public String Type { get; set; }
