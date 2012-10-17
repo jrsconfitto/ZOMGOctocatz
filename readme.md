@@ -1,7 +1,7 @@
 ZOMGOctocatz
 ============
 
-This small utility will download all the Octocats on the [Octodex](http://octodex.github.com) because i want to have my Windows desktop be full of fun. All the Octocats get downloaded to the `Octocatz` folder in your `Pictures` library.
+This small utility will download all the Octocats on the [Octodex](http://octodex.github.com) because i want to have my Windows desktop be full of fun. All the Octocats get downloaded to the `Octocatz` folder in your `Pictures` library or in a directory of your choosing. To set the output directory, pass the output directory's path as an argument to the utility. The utility will create that directory if it doesn't exist.
 
 ## Where do i get it?
 

@@ -21,10 +21,20 @@ namespace Octodexing {
                     OctocatsDirectory = args[0];
                 }
                 else {
-                    Console.WriteLine("Please pass in a valid path for the octocatz");
-                    return;
+                    try {
+                        var info = Directory.CreateDirectory(args[0]);
+                        OctocatsDirectory = info.FullName;
+                        Console.WriteLine("Created home for the Octocats at `{0}`", OctocatsDirectory);
+                    }
+                    catch (Exception ex) {
+                        Console.WriteLine("Could not create a home for the Octocats: {0}", ex.Message);
+                        return;
+                    }
                 }
             }
+
+            // Tell where we're putting the Octocatz
+            Console.WriteLine("Sending Octocats to `{0}`", OctocatsDirectory);
 
             // This application will scrape all the Octodex cats and put them in a folder in your Pictures library
             var client = new RestClient("http://feeds.feedburner.com/Octocats");
